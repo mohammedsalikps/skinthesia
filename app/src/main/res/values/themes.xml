@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Window theme only; Compose draws the UI. -->
+    <style name="Theme.Skinthesia" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/skinthesia_background</item>
+    </style>
+</resources>

@@ -1,0 +1,28 @@
+[versions]
+# AGP 9 compiles Kotlin itself (built-in Kotlin, KGP 2.2.10); Kotlin compiler plugins (Compose, serialization) must match that version.
+agp = "9.3.1"
+kotlin = "2.2.10"
+activityCompose = "1.13.0"
+# Compose 1.12 (BOM 2026.08.00+) requires compileSdk 37, which is not installed. 2026.06.01 = Compose 1.11.4, Material3 1.4.0.
+composeBom = "2026.06.01"
+# Navigation 2.10 (with Lifecycle 2.11) requires compileSdk 37; 2.9.x is the newest line that builds against 36.
+navigation = "2.9.8"
+# The kotlinx.serialization release line built for Kotlin 2.2. Used for type-safe navigation routes.
+serialization = "1.9.0"
+
+[libraries]
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+androidx-compose-ui = { group = "androidx.compose.ui", name = "ui" }
+androidx-compose-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+androidx-compose-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+androidx-compose-material3 = { group = "androidx.compose.material3", name = "material3" }
+androidx-navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "navigation" }
+kotlinx-serialization-core = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-core", version.ref = "serialization" }
+# Same version line as kotlinx-serialization-core, already proven to resolve in this project; used to persist app state as JSON.
+kotlinx-serialization-json = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-json", version.ref = "serialization" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }

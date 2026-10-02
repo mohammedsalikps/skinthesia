@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Mirrors SkinthesiaPalette.Cream so the window matches the Compose background before first frame. -->
+    <color name="skinthesia_background">#F7F1EA</color>
+</resources>

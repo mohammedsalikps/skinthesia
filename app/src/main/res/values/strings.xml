@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Skinthesia</string>
+
+    <!-- Design system -->
+    <string name="designsystem_loading">Loading</string>
+    <string name="designsystem_selected">Selected</string>
+    <string name="designsystem_not_selected">Not selected</string>
+
+    <!-- Onboarding shared -->
+    <string name="action_back">Back</string>
+    <string name="action_continue">Continue</string>
+
+    <!-- Create Profile -->
+    <string name="profile_title">Let\'s get to know you</string>
+    <string name="profile_subtitle">Just the basics, so we can personalize your experience.</string>
+    <string name="profile_name_label">Name</string>
+    <string name="profile_name_placeholder">Your first name</string>
+    <string name="profile_age_label">Age</string>
+    <string name="profile_age_placeholder">e.g. 28</string>
+    <string name="profile_gender_label">How should we refer to you?</string>
+    <string name="profile_gender_woman">Woman</string>
+    <string name="profile_gender_man">Man</string>
+    <string name="profile_gender_non_binary">Non-binary</string>
+    <string name="profile_gender_prefer_not_to_say">Prefer not to say</string>
+
+    <!-- Take Selfie -->
+    <string name="selfie_title">Let\'s see your skin</string>
+    <string name="selfie_subtitle">We\'ll use this photo to track visible changes over time. No filters, just natural light.</string>
+    <string name="selfie_take">Take Selfie</string>
+    <string name="selfie_retake">Retake</string>
+    <string name="selfie_captured">Photo captured</string>
+    <string name="selfie_align_hint">Align your face within the frame</string>
+
+    <!-- Photo Quality Check -->
+    <string name="quality_title">Checking your photo</string>
+    <string name="quality_analyzing">Analyzing your photo…</string>
+    <string name="quality_lighting">Lighting</string>
+    <string name="quality_face_positioning">Face positioning</string>
+    <string name="quality_clarity">Clarity</string>
+    <string name="quality_level_good">Good</string>
+    <string name="quality_level_fair">Fair</string>
+    <string name="quality_level_poor">Poor</string>
+    <string name="quality_overall_ready">Ready to use</string>
+    <string name="quality_overall_fair">Usable, but a retake may help</string>
+    <string name="quality_overall_poor">Needs improvement</string>
+    <string name="quality_use_photo">Use This Photo</string>
+
+    <!-- Retake Guidance -->
+    <string name="retake_title">Let\'s retake your photo</string>
+    <string name="retake_tip_face_camera">Face the camera directly</string>
+    <string name="retake_tip_even_lighting">Use even, natural lighting</string>
+    <string name="retake_tip_face_visible">Keep your whole face clearly visible</string>
+    <string name="retake_tip_avoid_shadows">Avoid heavy shadows</string>
+    <string name="retake_cta">Retake Photo</string>
+
+    <!-- Skin Goals -->
+    <string name="goals_title">What are your skin goals?</string>
+    <string name="goals_subtitle">Select all that apply.</string>
+    <string name="goal_acne">Acne</string>
+    <string name="goal_dark_spots">Dark spots</string>
+    <string name="goal_uneven_tone">Uneven skin tone</string>
+    <string name="goal_dryness">Dryness</string>
+    <string name="goal_oiliness">Oiliness</string>
+    <string name="goal_texture">Texture</string>
+    <string name="goal_redness">Redness</string>
+    <string name="goal_fine_lines">Fine lines</string>
+    <string name="goal_other">Other</string>
+
+    <!-- 12-Week Goal -->
+    <string name="target_title">Your 12-week goal</string>
+    <string name="target_subtitle">We\'ll track your progress toward this goal over the next 12 weeks.</string>
+    <string name="target_focused_on">Focused on</string>
+    <string name="target_field_label">Your goal statement</string>
+    <string name="target_reset_suggested">Reset to suggested</string>
+
+    <!-- Skin Questionnaire -->
+    <string name="questionnaire_title">Tell us about your skin</string>
+    <string name="questionnaire_subtitle">A few quick questions to help personalize your plan.</string>
+    <string name="questionnaire_select_all_that_apply">Select all that apply</string>
+    <string name="questionnaire_section_skin_type">Skin type</string>
+    <string name="questionnaire_section_sensitivity">Sensitivity</string>
+    <string name="questionnaire_section_routine">Current routine</string>
+    <string name="questionnaire_section_concerns">Common concerns</string>
+    <string name="questionnaire_section_product_sensitivity">Product sensitivities</string>
+    <string name="skin_type_dry">Dry</string>
+    <string name="skin_type_oily">Oily</string>
+    <string name="skin_type_combination">Combination</string>
+    <string name="skin_type_normal">Normal</string>
+    <string name="skin_type_not_sure">Not sure</string>
+    <string name="sensitivity_low">Low</string>
+    <string name="sensitivity_moderate">Moderate</string>
+    <string name="sensitivity_high">High</string>
+    <string name="sensitivity_not_sure">Not sure</string>
+    <string name="routine_minimal">Minimal</string>
+    <string name="routine_basic">Basic</string>
+    <string name="routine_detailed">Detailed</string>
+    <string name="routine_none">No routine</string>
+    <string name="concern_acne">Acne / breakouts</string>
+    <string name="concern_dark_spots">Dark spots</string>
+    <string name="concern_uneven_tone">Uneven tone</string>
+    <string name="concern_dryness">Dryness</string>
+    <string name="concern_oiliness">Oiliness</string>
+    <string name="concern_texture">Texture</string>
+    <string name="concern_redness">Redness</string>
+    <string name="concern_fine_lines">Fine lines</string>
+    <string name="product_sensitivity_fragrance">Fragrance</string>
+    <string name="product_sensitivity_essential_oils">Essential oils</string>
+    <string name="product_sensitivity_alcohol">Alcohol</string>
+    <string name="product_sensitivity_sulfates">Sulfates</string>
+    <string name="product_sensitivity_none">None / Not sure</string>
+
+    <!-- Lifestyle -->
+    <string name="lifestyle_title">A bit about your everyday life</string>
+    <string name="lifestyle_subtitle">This helps us fine-tune your recommendations.</string>
+    <string name="lifestyle_section_sleep">Sleep</string>
+    <string name="lifestyle_section_wellbeing">Wellbeing</string>
+    <string name="lifestyle_section_environment">Environment &amp; habits</string>
+    <string name="lifestyle_sleep_quality">Sleep quality</string>
+    <string name="lifestyle_sleep_duration">Typical sleep duration</string>
+    <string name="lifestyle_hours_format">%1$d hrs</string>
+    <string name="lifestyle_stress_level">Stress level</string>
+    <string name="lifestyle_water_intake">Daily water intake</string>
+    <string name="lifestyle_glasses_format">%1$d glasses</string>
+    <string name="lifestyle_activity_level">Exercise &amp; activity</string>
+    <string name="lifestyle_sun_exposure">Sun exposure</string>
+    <string name="lifestyle_outdoor_activity">Time spent outdoors</string>
+    <string name="lifestyle_smoking_status">Smoking</string>
+    <string name="lifestyle_diet_pattern">Typical diet</string>
+    <string name="lifestyle_sleep_quality_poor">Poor</string>
+    <string name="lifestyle_sleep_quality_fair">Fair</string>
+    <string name="lifestyle_sleep_quality_good">Good</string>
+    <string name="lifestyle_sleep_quality_excellent">Excellent</string>
+    <string name="lifestyle_stress_low">Low</string>
+    <string name="lifestyle_stress_moderate">Moderate</string>
+    <string name="lifestyle_stress_high">High</string>
+    <string name="lifestyle_sun_minimal">Minimal</string>
+    <string name="lifestyle_sun_moderate">Moderate</string>
+    <string name="lifestyle_sun_frequent">Frequent</string>
+    <string name="lifestyle_outdoor_rarely">Rarely</string>
+    <string name="lifestyle_outdoor_sometimes">Sometimes</string>
+    <string name="lifestyle_outdoor_often">Often</string>
+    <string name="lifestyle_outdoor_daily">Daily</string>
+    <string name="lifestyle_activity_sedentary">Sedentary</string>
+    <string name="lifestyle_activity_light">Light</string>
+    <string name="lifestyle_activity_moderate">Moderate</string>
+    <string name="lifestyle_activity_active">Active</string>
+    <string name="lifestyle_smoking_never">Never</string>
+    <string name="lifestyle_smoking_former">Former</string>
+    <string name="lifestyle_smoking_occasional">Occasional</string>
+    <string name="lifestyle_smoking_regular">Regular</string>
+    <string name="lifestyle_diet_balanced">Balanced</string>
+    <string name="lifestyle_diet_plant_based">Mostly plant-based</string>
+    <string name="lifestyle_diet_protein_focused">Mostly protein-based</string>
+    <string name="lifestyle_diet_irregular">Irregular</string>
+    <string name="lifestyle_diet_prefer_not_to_say">Prefer not to say</string>
+
+    <!-- Connect Skinthesia Probe -->
+    <string name="probe_connect_title">Connect your Skinthesia Probe</string>
+    <string name="probe_connect_explain">Your probe measures skin signals that a camera cannot see.</string>
+    <string name="probe_photo_content_description">The Skinthesia Probe</string>
+    <string name="probe_status_label">Device status</string>
+    <string name="probe_status_not_connected">Not connected</string>
+    <string name="probe_simulated_note">Simulated for development — no physical probe required.</string>
+    <string name="probe_before_you_begin">Before you begin</string>
+    <string name="probe_tip_charged">Make sure your probe is charged</string>
+    <string name="probe_tip_bluetooth">Turn on Bluetooth on your phone</string>
+    <string name="probe_tip_nearby">Keep the probe within arm\'s reach</string>
+    <string name="probe_search_cta">Search for Probe</string>
+
+    <!-- Device Pairing -->
+    <string name="pairing_title">Pairing your device</string>
+    <string name="pairing_searching">Searching for your Skinthesia Probe…</string>
+    <string name="pairing_device_name">Skinthesia Probe</string>
+    <string name="pairing_ready_to_connect">Ready to connect</string>
+    <string name="pairing_connecting">Connecting…</string>
+    <string name="pairing_connected">Connected</string>
+    <string name="pairing_battery_format">Battery: %1$s</string>
+    <string name="pairing_battery_low">Low</string>
+    <string name="pairing_battery_medium">Medium</string>
+    <string name="pairing_battery_high">High</string>
+    <string name="pairing_failed_title">We couldn\'t find your probe</string>
+    <string name="pairing_failed_body">Make sure it\'s turned on and nearby, then try again.</string>
+    <string name="pairing_connect_cta">Connect</string>
+    <string name="pairing_retry_cta">Try Again</string>
+
+    <!-- Calibration / Ready -->
+    <string name="calibration_preparing_title">Preparing your Skinthesia Probe</string>
+    <string name="calibration_ready_title">Your probe is ready</string>
+    <string name="calibration_checklist_device_connected">Device connected</string>
+    <string name="calibration_checklist_sensors_ready">Sensors ready</string>
+    <string name="calibration_checklist_measurement_ready">Measurement ready</string>
+    <string name="calibration_calibrating_label">Calibrating…</string>
+    <string name="calibration_begin_measurement">Begin Measurement</string>
+
+    <!-- Region Measurement (Forehead / Left Cheek / Right Cheek) -->
+    <string name="measurement_region_progress_format">Region %1$d of %2$d</string>
+    <string name="measurement_instruction_forehead">Place the probe gently on your forehead.</string>
+    <string name="measurement_instruction_left_cheek">Place the probe gently on your left cheek.</string>
+    <string name="measurement_instruction_right_cheek">Place the probe gently on your right cheek.</string>
+    <string name="measurement_region_forehead">Forehead</string>
+    <string name="measurement_region_left_cheek">Left Cheek</string>
+    <string name="measurement_region_right_cheek">Right Cheek</string>
+    <string name="measurement_status_getting_ready">Getting ready…</string>
+    <string name="measurement_status_measuring">Measuring… keep the probe steady.</string>
+    <string name="measurement_status_captured">Reading captured.</string>
+    <string name="measurement_status_failed_disconnected_body">Your probe disconnected. Reconnect it and try this region again.</string>
+    <string name="measurement_status_failed_generic_body">We couldn\'t complete that reading. Keep the probe steady and try again.</string>
+    <string name="measurement_retry_reconnect_cta">Reconnect &amp; Retry</string>
+    <string name="measurement_retry_cta">Retry Measurement</string>
+
+    <!-- Measurement Complete -->
+    <string name="measurement_complete_title">Your skin measurements are complete.</string>
+    <string name="measurement_complete_explanation">These readings will be combined with your camera analysis and profile to build a complete picture of your skin.</string>
+    <string name="measurement_continue_to_analysis">Continue to Analysis</string>
+
+    <!-- Camera AI Analysis -->
+    <string name="analysis_question_title">What does your skin look like?</string>
+    <string name="analysis_overview_title">Skin appearance overview</string>
+    <string name="analysis_simulated_label">Visual estimate · Simulated for development</string>
+    <string name="analysis_status_preparing">Preparing your photo…</string>
+    <string name="analysis_status_analyzing">Analyzing visual characteristics…</string>
+    <string name="analysis_status_failed">We couldn\'t complete the analysis.</string>
+    <string name="analysis_retry_cta">Try Again</string>
+    <string name="analysis_disclaimer">These observations describe visible skin characteristics from your photo. They are not a medical diagnosis.</string>
+    <string name="indicator_acne_appearance">Acne appearance</string>
+    <string name="indicator_pigmentation">Pigmentation</string>
+    <string name="indicator_uneven_tone">Uneven tone</string>
+    <string name="indicator_texture">Texture</string>
+    <string name="indicator_pore_appearance">Pore appearance</string>
+    <string name="indicator_redness">Redness</string>
+    <string name="indicator_dark_circles">Dark circles</string>
+    <string name="indicator_fine_lines">Fine lines</string>
+    <string name="indicator_level_minimal">Minimal</string>
+    <string name="indicator_level_mild">Mild</string>
+    <string name="indicator_level_moderate">Moderate</string>
+    <string name="indicator_level_noticeable">Noticeable</string>
+
+    <!-- Sensor Analysis -->
+    <string name="sensor_title">Your skin measurements</string>
+    <string name="sensor_simulated_label">Simulated for development</string>
+    <string name="sensor_status_reading">Reading your measurements…</string>
+    <string name="sensor_retry_cta">Retry</string>
+    <string name="sensor_no_data_for_region">No sensor data available for this region yet.</string>
+    <string name="sensor_explanation_real">These readings come from the connected Skinthesia Probe.</string>
+    <string name="sensor_explanation_simulated">Development simulation — real probe readings will appear here when connected.</string>
+    <string name="sensor_error_missing_session_title">We couldn\'t find your skin measurements</string>
+    <string name="sensor_error_missing_session_body">Please complete the probe measurement steps first, then try again.</string>
+    <string name="sensor_error_incomplete_title">Your skin measurements aren\'t complete yet</string>
+    <string name="sensor_error_incomplete_body">Go back and finish measuring all three regions before continuing.</string>
+    <string name="sensor_error_failed_title">We couldn\'t read your sensor data</string>
+    <string name="sensor_error_failed_body">Something interrupted the reading. You can try again.</string>
+
+    <!-- Combined AI Analysis -->
+    <string name="combined_title">Bringing your skin data together</string>
+    <string name="combined_source_camera">Camera</string>
+    <string name="combined_source_camera_ready">Visual analysis ready</string>
+    <string name="combined_source_probe">Probe</string>
+    <string name="combined_source_probe_ready">Sensor analysis ready</string>
+    <string name="combined_source_profile">Your profile</string>
+    <string name="combined_source_profile_ready">Profile and questionnaire ready</string>
+    <string name="combined_source_goals">Your goals</string>
+    <string name="combined_source_goals_ready">Goals and lifestyle ready</string>
+    <string name="combined_source_preparing">Preparing…</string>
+    <string name="combined_status_understanding">Understanding your skin…</string>
+    <string name="combined_status_ready">Your results are ready.</string>
+    <string name="combined_retry_cta">Try Again</string>
+    <string name="combined_error_missing_title">We couldn\'t bring your skin data together</string>
+    <string name="combined_error_missing_body">Some earlier steps may be missing. Please go back and complete them first.</string>
+    <string name="combined_error_failed_title">We couldn\'t finish combining your results</string>
+    <string name="combined_error_failed_body">Something interrupted the analysis. You can try again.</string>
+
+    <!-- SkinPrint -->
+    <string name="skinprint_title">Your SkinPrint™</string>
+    <string name="skinprint_subtitle">Your evolving skin profile, built from your visual analysis, measurements, goals and personal context.</string>
+    <string name="skinprint_results_ready">Your results are ready.</string>
+    <string name="skinprint_tracking_label">Tracking indicator · Simulated for development</string>
+    <string name="skinprint_overall_label">Overall</string>
+    <string name="skinprint_breakdown_title">Breakdown</string>
+    <string name="skinprint_component_clarity">Clarity</string>
+    <string name="skinprint_component_even_tone">Even Tone</string>
+    <string name="skinprint_component_texture">Texture</string>
+    <string name="skinprint_component_hydration">Hydration</string>
+    <string name="skinprint_component_pore_appearance">Pore Appearance</string>
+    <string name="skinprint_built_from_title">Built from</string>
+    <string name="skinprint_built_from_camera">Camera analysis</string>
+    <string name="skinprint_built_from_probe">Probe measurements</string>
+    <string name="skinprint_built_from_goals">Skin goals</string>
+    <string name="skinprint_built_from_lifestyle">Lifestyle context</string>
+    <string name="skinprint_disclaimer">These insights combine the information available in your Skinthesia profile. Development simulation — results will use validated analysis systems when integrated.</string>
+    <string name="skinprint_will_evolve">Your SkinPrint™ will evolve as you measure your skin again.</string>
+    <string name="skinprint_view_report_cta">View My Skin Report</string>
+
+    <!-- Skin Report -->
+    <string name="skin_report_title">Your Skin Report</string>
+    <string name="skin_report_subtitle">A personalized overview of your current skin profile.</string>
+    <string name="skin_report_section_strengths">Your strengths</string>
+    <string name="skin_report_section_focus_areas">Focus areas</string>
+    <string name="skin_report_focus_areas_empty">Looking good — nothing needs particular attention right now.</string>
+    <string name="skin_report_section_understanding">Understanding your profile</string>
+    <string name="skin_report_understanding_body">This report combines what your camera and probe observed with your goals, lifestyle and questionnaire answers.</string>
+    <string name="skin_report_source_camera">Camera observations</string>
+    <string name="skin_report_source_probe">Probe measurements</string>
+    <string name="skin_report_source_lifestyle">Lifestyle context</string>
+    <string name="skin_report_source_goals">Skin goals</string>
+    <string name="skin_report_source_questionnaire">Questionnaire</string>
+    <string name="skin_report_explore_cta">Explore Areas for Improvement</string>
+
+    <string name="strength_acne_appearance_title">Calm complexion</string>
+    <string name="strength_acne_appearance_detail">Your photo showed few visible signs of breakouts.</string>
+    <string name="strength_pigmentation_title">Consistent visual clarity</string>
+    <string name="strength_pigmentation_detail">Your skin tone showed little visible pigmentation variation.</string>
+    <string name="strength_uneven_tone_title">Even-looking tone</string>
+    <string name="strength_uneven_tone_detail">Your overall skin tone appeared fairly consistent.</string>
+    <string name="strength_texture_title">Balanced texture profile</string>
+    <string name="strength_texture_detail">Your skin\'s surface appeared smooth in your photo.</string>
+    <string name="strength_pore_appearance_title">Refined appearance</string>
+    <string name="strength_pore_appearance_detail">Pores were not strongly visible in your photo.</string>
+    <string name="strength_redness_title">Calm overall appearance</string>
+    <string name="strength_redness_detail">Your skin showed minimal visible redness.</string>
+    <string name="strength_dark_circles_title">Bright under-eye area</string>
+    <string name="strength_dark_circles_detail">The under-eye area appeared even in tone.</string>
+    <string name="strength_fine_lines_title">Smooth appearance</string>
+    <string name="strength_fine_lines_detail">Few fine lines were visible in your photo.</string>
+    <string name="strength_general_building_baseline_title">Building your baseline</string>
+    <string name="strength_general_building_baseline_detail">You\'ve completed your first full skin check-in — a strong start to tracking real change.</string>
+    <string name="strength_general_personalized_context_title">A fuller picture</string>
+    <string name="strength_general_personalized_context_detail">Your goals and lifestyle context help Skinthesia look at your skin the way you experience it.</string>
+    <string name="strength_general_ready_to_act_title">Ready to take action</string>
+    <string name="strength_general_ready_to_act_detail">Setting clear goals is one of the best predictors of visible progress over time.</string>
+
+    <!-- Areas for Improvement -->
+    <string name="areas_title">Areas for Improvement</string>
+    <string name="areas_subtitle">A closer look at what Skinthesia noticed in your photo.</string>
+    <string name="areas_empty_title">Everything looks good right now</string>
+    <string name="areas_empty_body">Skinthesia didn\'t find any areas that need particular attention in this simulated analysis.</string>
+    <string name="areas_next_note">Next, we\'ll create your personalized skincare plan.</string>
+    <string name="areas_continue_cta">Continue to My Plan</string>
+    <string name="areas_why_highlighted_label">Why Skinthesia highlighted it</string>
+    <string name="focus_why_highlighted">Skinthesia highlighted this area based on your current profile. This observation is part of your simulated development analysis.</string>
+    <string name="focus_explanation_acne_appearance">How clear your skin looks from visible breakouts or blemishes.</string>
+    <string name="focus_explanation_pigmentation">Visible variation in skin coloring, such as dark spots.</string>
+    <string name="focus_explanation_uneven_tone">How consistent your overall skin tone appears.</string>
+    <string name="focus_explanation_texture">The visual smoothness of your skin\'s surface.</string>
+    <string name="focus_explanation_pore_appearance">How visible pores appear in your photo.</string>
+    <string name="focus_explanation_redness">Visible redness or flushing in your skin tone.</string>
+    <string name="focus_explanation_dark_circles">Shadowing or discoloration around the under-eye area.</string>
+    <string name="focus_explanation_fine_lines">Visible fine lines in your photo.</string>
+
+    <!-- Personalized Plan -->
+    <string name="plan_title">Your Personalized Plan</string>
+    <string name="plan_subtitle">Small, consistent steps designed around your skin goals.</string>
+    <string name="plan_section_priorities">Your priorities</string>
+    <string name="plan_priorities_empty">Your profile is in great shape — we\'ll keep an eye on it as you continue.</string>
+    <string name="plan_section_direction">Your 12-week direction</string>
+    <string name="plan_section_plan">Your plan</string>
+    <string name="plan_pillar_morning_title">Morning</string>
+    <string name="plan_pillar_morning_body">Protect and support your skin during the day.</string>
+    <string name="plan_pillar_evening_title">Evening</string>
+    <string name="plan_pillar_evening_body">Keep your evening routine simple and consistent.</string>
+    <string name="plan_pillar_lifestyle_title">Lifestyle</string>
+    <string name="plan_pillar_lifestyle_body">Support your routine through realistic daily habits.</string>
+    <string name="plan_view_morning_routine_cta">View Morning Routine</string>
+
+    <!-- Routine steps -->
+    <string name="routine_step_cleanse">Cleanse</string>
+    <string name="routine_step_hydrate">Hydrate</string>
+    <string name="routine_step_moisturize">Moisturize</string>
+    <string name="routine_step_protect">Protect</string>
+    <string name="routine_step_target">Target</string>
+    <string name="routine_explanation_cleanse">Start with a gentle cleanse appropriate for your routine.</string>
+    <string name="routine_explanation_hydrate">Support comfortable, balanced-looking skin.</string>
+    <string name="routine_explanation_moisturize">Lock in hydration to support your skin overnight.</string>
+    <string name="routine_explanation_protect">Finish with daily sun protection.</string>
+    <string name="routine_explanation_target_generic">A focused step you can personalize as your priorities evolve.</string>
+    <string name="routine_explanation_target_format">A focused step selected to support your %1$s priority.</string>
+
+    <!-- Product categories -->
+    <string name="product_category_cleanser">Gentle Cleanser</string>
+    <string name="product_category_hydrating_serum">Hydrating Serum</string>
+    <string name="product_category_moisturizer">Moisturizer</string>
+    <string name="product_category_sunscreen">Daily Sunscreen</string>
+    <string name="product_category_targeted_treatment">Targeted Treatment</string>
+    <string name="product_why_cleanser">A gentle first step that suits most routines.</string>
+    <string name="product_why_hydrating_serum">Adds a layer of hydration to your morning routine.</string>
+    <string name="product_why_moisturizer">Helps keep your skin\'s moisture barrier comfortable.</string>
+    <string name="product_why_sunscreen">Daily protection is one of the most consistently supportive skincare habits.</string>
+    <string name="product_why_targeted_treatment">A flexible step you can personalize as your priorities evolve.</string>
+    <string name="product_why_supports_format">Selected based on your %1$s priority.</string>
+
+    <!-- Routine screens -->
+    <string name="routine_morning_title">Morning Routine</string>
+    <string name="routine_morning_subtitle">A simple routine to start your day.</string>
+    <string name="routine_evening_title">Evening Routine</string>
+    <string name="routine_evening_subtitle">Wind down with a consistent nighttime routine.</string>
+    <string name="routine_view_evening_cta">View Evening Routine</string>
+    <string name="routine_explore_products_cta">Explore Products</string>
+
+    <!-- Product Recommendations -->
+    <string name="products_title">Products for Your Plan</string>
+    <string name="products_subtitle">Explore product categories that fit your current routine and goals.</string>
+    <string name="products_simulated_label">Category recommendation · Simulated for development</string>
+    <string name="products_focus_format">Focus: %1$s</string>
+    <string name="products_placement_format">Placement: %1$s</string>
+    <string name="products_add_cta">Add to Routine</string>
+    <string name="products_added_cta">Added to Routine ✓</string>
+
+    <!-- Dashboard / Home -->
+    <string name="dashboard_greeting_title">Good morning</string>
+    <string name="dashboard_greeting_named">Welcome back, %1$s.</string>
+    <string name="dashboard_greeting_generic">Here\'s where your skin journey stands today.</string>
+    <string name="dashboard_section_skin_status">Current Skin Status</string>
+    <string name="dashboard_skin_status_interpretation">Your current profile is ready to track over time.</string>
+    <string name="dashboard_skin_status_empty">Your SkinPrint™ will appear here once your first analysis is complete.</string>
+    <string name="dashboard_view_skinprint_cta">View SkinPrint</string>
+    <string name="dashboard_section_focus">Today\'s Focus</string>
+    <string name="dashboard_focus_supporting">This is currently the priority your routine and recommendations are built around.</string>
+    <string name="dashboard_focus_empty">Your focus areas will appear here once your personalized plan is ready.</string>
+    <string name="dashboard_section_routine">Today\'s Routine</string>
+    <string name="dashboard_routine_context_morning">Morning</string>
+    <string name="dashboard_routine_progress_format">%1$d of %2$d complete</string>
+    <string name="dashboard_routine_empty">Your routine will appear here once your personalized plan is ready.</string>
+    <string name="dashboard_open_routine_cta">Open Routine</string>
+    <string name="dashboard_section_goal">Your 12-Week Goal</string>
+    <string name="dashboard_goal_baseline_today">Your journey starts with today\'s baseline.</string>
+    <string name="dashboard_goal_baseline_established">Baseline established · Progress will appear as you check in.</string>
+    <string name="dashboard_goal_empty">Your 12-week goal will appear here once it\'s set during onboarding.</string>
+    <string name="dashboard_section_quick_actions">Quick Actions</string>
+    <string name="dashboard_action_analyze">Analyze My Skin</string>
+    <string name="dashboard_action_view_plan">View My Plan</string>
+    <string name="dashboard_action_check_journey">Check My Journey</string>
+    <string name="dashboard_section_insight">Insight</string>
+    <string name="dashboard_insight_with_plan">Your current plan is built around a few focused priorities.</string>
+    <string name="dashboard_insight_generic">Consistency matters more than complexity.</string>
+    <string name="dashboard_checkin_title">Weekly Check-in</string>
+    <string name="dashboard_checkin_body">Keep your SkinPrint™ up to date.</string>
+    <string name="dashboard_checkin_cta">Check in</string>
+
+    <!-- Weekly Check-in -->
+    <string name="checkin_title">Weekly Check-in</string>
+    <string name="checkin_subtitle">Tell Skinthesia how your week has been.</string>
+    <string name="checkin_section_feeling">How has your skin felt this week?</string>
+    <string name="checkin_feeling_better">Better</string>
+    <string name="checkin_feeling_same">About the same</string>
+    <string name="checkin_feeling_challenging">More challenging</string>
+    <string name="checkin_section_consistency">How consistent were you with your routine?</string>
+    <string name="checkin_consistency_very">Very consistent</string>
+    <string name="checkin_consistency_mostly">Mostly consistent</string>
+    <string name="checkin_consistency_somewhat">Somewhat consistent</string>
+    <string name="checkin_consistency_struggled">I struggled to stay consistent</string>
+    <string name="checkin_section_changes">Anything changed this week?</string>
+    <string name="checkin_change_nothing">Nothing significant</string>
+    <string name="checkin_change_products">New products</string>
+    <string name="checkin_change_routine">Routine changed</string>
+    <string name="checkin_change_lifestyle">Lifestyle changed</string>
+    <string name="checkin_change_environment">Environment changed</string>
+    <string name="checkin_note_label">Anything else you\'d like to add? (optional)</string>
+    <string name="checkin_note_placeholder">Add a short note…</string>
+    <string name="checkin_complete_cta">Complete Check-in</string>
+
+    <!-- Progress Comparison -->
+    <string name="progress_title">Your Progress</string>
+    <string name="progress_subtitle">Compare your skin journey over time.</string>
+    <string name="progress_baseline_ready">Your baseline is ready.</string>
+    <string name="progress_baseline_explanation">This is your starting point. Future check-ins and measurements will help Skinthesia understand how your skin changes over time.</string>
+    <string name="progress_history_version_format">Version %1$d</string>
+    <string name="progress_continue_cta">See How Your Plan Can Adapt</string>
+
+    <!-- Adaptive Plan -->
+    <string name="adaptive_title">Your Plan, Adapted</string>
+    <string name="adaptive_subtitle">Your routine can evolve as your skin and habits change.</string>
+    <string name="adaptive_baseline_lead">Your plan is currently based on your baseline.</string>
+    <string name="adaptive_history_lead">Your plan reflects your SkinPrint history.</string>
+    <string name="adaptive_future_note">Future check-ins and measurements can inform adjustments.</string>
+    <string name="adaptive_insight_consistency_low">Keep your routine simple and focus on consistency.</string>
+    <string name="adaptive_insight_consistency_high">Your routine consistency is strong. Future measurements can help refine your priorities.</string>
+    <string name="adaptive_insight_recent_change">Your recent change will be considered in future check-ins.</string>
+    <string name="adaptive_no_checkin">Complete a Weekly Check-in to help refine these insights.</string>
+    <string name="adaptive_considering_title">What we\'re factoring in</string>
+    <string name="adaptive_considering_skinprint">Your SkinPrint™</string>
+    <string name="adaptive_considering_checkin">Your latest Weekly Check-in</string>
+    <string name="adaptive_considering_goal">Your 12-week goal</string>
+    <string name="adaptive_return_home_cta">Return Home</string>
+
+    <!-- Skin Journey -->
+    <string name="journey_title">Your Skin Journey</string>
+    <string name="journey_subtitle">Your SkinPrint™ evolves as you learn more about your skin.</string>
+    <string name="journey_milestone_baseline">Baseline established</string>
+    <string name="journey_milestone_skinprint_updated">SkinPrint™ updated</string>
+    <string name="journey_milestone_plan_created">Personalized plan created</string>
+    <string name="journey_milestone_checkin">Weekly check-in completed</string>
+    <string name="journey_empty_state">Your Skin Journey will begin once your first analysis is complete.</string>
+    <string name="journey_future_title">Your journey is just beginning.</string>
+    <string name="journey_future_body">Continue checking in and measuring your skin to build a richer picture over time.</string>
+    <string name="journey_action_checkin">Check In</string>
+    <string name="journey_action_view_progress">View Progress</string>
+    <string name="journey_action_view_plan">View My Plan</string>
+
+    <!-- Profile / Settings -->
+    <string name="profile_screen_title">Profile</string>
+    <string name="profile_not_provided">Not provided</string>
+    <string name="profile_skinprint_created_format">Created %1$s</string>
+    <string name="profile_skinprint_version_format">Version %1$d</string>
+    <string name="profile_section_goals">My Goals</string>
+    <string name="profile_goals_empty">No goals selected yet.</string>
+    <string name="profile_section_skin_profile">My Skin Profile</string>
+    <string name="profile_skin_profile_empty">Not provided yet.</string>
+    <string name="profile_field_skin_type">Skin type</string>
+    <string name="profile_field_sensitivity">Sensitivity</string>
+    <string name="profile_field_routine">Routine</string>
+    <string name="profile_section_lifestyle">My Lifestyle</string>
+    <string name="profile_lifestyle_empty">Not provided yet.</string>
+    <string name="profile_section_plan">My Plan</string>
+    <string name="profile_plan_empty">Your personalized plan will appear here once it\'s ready.</string>
+    <string name="profile_section_settings">Settings</string>
+    <string name="profile_settings_notifications_title">Notifications</string>
+    <string name="profile_settings_notifications_body">You\'ll be able to manage reminders here soon.</string>
+    <string name="profile_settings_privacy_title">Privacy</string>
+    <string name="profile_settings_privacy_body">Your data stays on this device for now.</string>
+    <string name="profile_settings_about_title">About Skinthesia</string>
+    <string name="profile_settings_about_body">Skinthesia is a simulated skin-health experience, currently in development.</string>
+
+    <!-- Bottom navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_analyze">Analyze</string>
+    <string name="nav_journey">Journey</string>
+    <string name="nav_learn">Learn</string>
+    <string name="nav_profile">Profile</string>
+
+    <!-- Learn -->
+    <string name="learn_title">Learn</string>
+    <string name="learn_subtitle">Understand your skin and make more informed choices.</string>
+    <string name="learn_section_featured">Featured</string>
+    <string name="learn_section_explore_topics">Explore Topics</string>
+    <string name="learn_section_recommended">Recommended for You</string>
+    <string name="learn_section_discover_more">Discover More</string>
+    <string name="learn_simulated_label">Educational content · Simulated for development</string>
+    <string name="topic_skin_basics">Skin Basics</string>
+    <string name="topic_understanding_your_skin">Understanding Your Skin</string>
+    <string name="topic_ingredients">Ingredients</string>
+    <string name="topic_daily_habits">Daily Habits</string>
+    <string name="topic_routines">Routines</string>
+    <string name="topic_skinthesia_technology">Skinthesia Technology</string>
+    <string name="learn_discover_marketplace_title">Marketplace</string>
+    <string name="learn_discover_marketplace_body">Explore products that fit your plan.</string>
+    <string name="learn_discover_consultation_title">Talk to an Expert</string>
+    <string name="learn_discover_consultation_body">Get guidance from a simulated expert perspective.</string>
+    <string name="learn_discover_community_title">Community</string>
+    <string name="learn_discover_community_body">See how others approach their routines.</string>
+
+    <!-- Education articles -->
+    <string name="article_skinprint_title">Understanding Your SkinPrint™</string>
+    <string name="article_skinprint_summary">How Camera, Probe, your answers and AI come together into one evolving picture.</string>
+    <string name="article_skinprint_body">Your SkinPrint™ blends four inputs: what the camera observes, what the probe measures, the context you shared, and the goals you set. Each contributes a piece to a single, evolving picture of your skin — never a diagnosis, always a starting point for tracking change over time.</string>
+    <string name="article_skin_basics_title">Skin Basics: Getting Oriented</string>
+    <string name="article_skin_basics_summary">A gentle primer on how skin works and why everyone\'s baseline looks different.</string>
+    <string name="article_skin_basics_body">Skin is a living, changing organ shaped by genetics, environment and habits. There\'s no single \"normal\" — what matters is understanding your own baseline and noticing how it shifts over time, not comparing it to anyone else\'s.</string>
+    <string name="article_understanding_skin_title">Understanding Your Skin Type</string>
+    <string name="article_understanding_skin_summary">Why skin type and sensitivity are starting points, not fixed labels.</string>
+    <string name="article_understanding_skin_body">Skin type and sensitivity can shift with season, stress and routine changes. Treat your self-reported profile as a helpful starting point, and revisit it if your skin\'s behavior changes.</string>
+    <string name="article_ingredients_title">Reading Ingredient Labels with Confidence</string>
+    <string name="article_ingredients_summary">What to look for when a product\'s ingredient list feels overwhelming.</string>
+    <string name="article_ingredients_body">Ingredient lists are ordered by concentration. Rather than chasing trends, focus on what a product is meant to do for your routine — cleanse, hydrate, protect or target — and introduce new ingredients one at a time.</string>
+    <string name="article_daily_habits_title">Small Habits, Meaningful Signals</string>
+    <string name="article_daily_habits_summary">How sleep, stress and sun exposure show up in your skin over time.</string>
+    <string name="article_daily_habits_body">Daily habits like sleep quality, hydration and sun exposure don\'t change your skin overnight, but they compound. Tracking them alongside your routine can help you notice patterns worth adjusting.</string>
+    <string name="article_routines_title">Building a Routine That Sticks</string>
+    <string name="article_routines_summary">Why a simple, consistent routine usually outperforms a complicated one.</string>
+    <string name="article_routines_body">The most effective routine is the one you\'ll actually follow. Start with the essentials — cleanse, protect and one targeted step — and build from there only if it earns its place.</string>
+
+    <!-- Marketplace -->
+    <string name="marketplace_title">Skinthesia Marketplace</string>
+    <string name="marketplace_subtitle">Explore products that fit your personalized plan.</string>
+    <string name="marketplace_empty">Your marketplace recommendations will appear once your personalized plan is ready.</string>
+    <string name="marketplace_why_cleanser">Selected for your morning and evening routine.</string>
+    <string name="marketplace_why_hydrating_serum">Fits your current hydration-focused plan.</string>
+    <string name="marketplace_why_moisturizer">Helps round out your evening routine.</string>
+    <string name="marketplace_why_sunscreen">Designed to complement your daytime routine.</string>
+    <string name="marketplace_why_targeted_treatment">Selected to support your current focus area.</string>
+    <string name="marketplace_add_cta">Add to Plan</string>
+    <string name="marketplace_added_cta">Added to Plan ✓</string>
+
+    <!-- Expert Consultation -->
+    <string name="consultation_title">Talk to an Expert</string>
+    <string name="consultation_subtitle">Get additional guidance when you want a human perspective.</string>
+    <string name="consultation_simulated_label">Expert consultation · Simulated for development</string>
+    <string name="consultation_generic_name">Skinthesia Expert</string>
+    <string name="consultation_expert_1_role">Skincare Specialist</string>
+    <string name="consultation_expert_1_focus">Focus: Routine guidance</string>
+    <string name="consultation_expert_2_role">Skin Wellness Consultant</string>
+    <string name="consultation_expert_2_focus">Focus: Lifestyle &amp; consistency</string>
+    <string name="consultation_expert_3_role">Ingredient &amp; Product Guide</string>
+    <string name="consultation_expert_3_focus">Focus: Product selection</string>
+    <string name="consultation_availability_placeholder">Availability shown here in a future version.</string>
+    <string name="consultation_view_profile_cta">View Profile</string>
+    <string name="consultation_booking_placeholder">Consultation booking will be available in a future version.</string>
+
+    <!-- Community -->
+    <string name="community_title">Community</string>
+    <string name="community_subtitle">Learn from shared experiences and Skinthesia insights.</string>
+    <string name="community_simulated_label">Community · Simulated for development</string>
+    <string name="community_participant_placeholder">Simulated participant</string>
+    <string name="community_discussion_1_title">How do you stay consistent with your routine?</string>
+    <string name="community_discussion_1_excerpt">A few small habits that make sticking to a routine easier, even on busy days.</string>
+    <string name="community_discussion_2_title">What changed after tracking your skin for several weeks?</string>
+    <string name="community_discussion_2_excerpt">Patterns people noticed once they started paying closer attention.</string>
+    <string name="community_discussion_3_title">Share your routine wins.</string>
+    <string name="community_discussion_3_excerpt">Celebrating the small, consistent steps that add up over time.</string>
+    <string name="community_comment_count_format">%1$d comments</string>
+
+    <!-- Welcome -->
+    <string name="welcome_headline_understand">Understand your skin.</string>
+    <string name="welcome_headline_transform">Transform your routine.</string>
+    <string name="welcome_supporting">AI-powered skin intelligence that combines what your camera sees, what your skin sensors measure, and what matters to you.</string>
+    <string name="welcome_get_started">Get Started</string>
+    <string name="welcome_sign_in_prompt">Already have an account?</string>
+    <string name="welcome_sign_in">Sign in</string>
+</resources>
